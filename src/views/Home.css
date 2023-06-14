@@ -1,0 +1,17 @@
+.home {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__container {
+    margin: auto;
+    padding: 5vh;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.home__container > h1{
+    font-size:5vw;
+}

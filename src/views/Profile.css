@@ -1,0 +1,27 @@
+.user__page {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__page__container {
+    margin: auto;
+    padding: 5vh;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.user__profile__data {
+    display: flex;
+}
+
+.user__profile__key {
+    padding: 1vh;
+}
+
+.user__profile__value {
+    width: 50vh;
+    overflow-wrap: break-word;
+    padding: 1vh;
+}
