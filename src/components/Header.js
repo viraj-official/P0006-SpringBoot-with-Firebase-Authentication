@@ -32,7 +32,7 @@ function Header() {
         </Link>
 
         <nav ref={navRef}>
-          <Link t onClick={showNavbar} o="/" className="nav-element">
+          <Link onClick={showNavbar} to="/" className="nav-element">
             <p>Home</p>
           </Link>
           {user ? (

@@ -1,17 +1,19 @@
 .project {
-    height: 100vh;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
 .project__container {
-    margin: auto;
+    margin-top: 5vh;
     padding: 5vh;
+    width: 50vh;
     border-radius: 5px;
     border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
 }
 
 .project__container > h1{
-    font-size:5vw;
+    font-size:2vw;
 }
