@@ -3,7 +3,7 @@ import "./Project.css";
 import { useStateValue } from "../StateProvider";
 
 function Project() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function Project() {
     };
 
     fetchData();
-  }, []);
+  }, [user]);
 
   return (
     <div className="project">

@@ -36,7 +36,7 @@ function App() {
         setIsSignedIn(false);
       }
     });
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>

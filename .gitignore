@@ -1,3 +1,4 @@
 # dependencies
 /Frontend/node_modules
 /Backend/build
+/Backend/bin

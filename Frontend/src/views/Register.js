@@ -32,6 +32,7 @@ function Register() {
           <img
             className="login__logo"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/2560px-GitLab_logo.svg.png"
+            alt="logo"
           />
         </Link>
         <h1>Register</h1>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc8629a6-2cc1-4b5b-a3e3-4c26ae8d34ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/bin/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/core/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/model/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/model/User$UserBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/bin/main/com/example/boilerplate/service/impl/UserServiceImpl.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2RCjzqY7yPHPMf1Np8ShFKDnNPc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/github/P0006-SpringBoot-with-Firebase-Authentication/Backend",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc8629a6-2cc1-4b5b-a3e3-4c26ae8d34ae" name="Changes" comment="" />
+      <created>1686761231584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686761231584</updated>
+      <workItem from="1686761242060" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

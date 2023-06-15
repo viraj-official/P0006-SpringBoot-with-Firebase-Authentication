@@ -3,7 +3,7 @@ import "./Profile.css";
 import { useStateValue } from "../StateProvider";
 
 function Profile() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
   const [currentUser, setCurrentUser] = useState(null);
 
   const copy = () => {
@@ -32,10 +32,8 @@ function Profile() {
     };
 
     fetchData();
-  }, []);
+  }, [user]);
 
-  const text =
-    "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <div className="user__page">
       <div className="user__page__container">

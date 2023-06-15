@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const navRef = useRef();
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
@@ -30,8 +30,13 @@ function Header() {
             alt="header_logo"
           />
         </Link>
-
+        <button className="nav-btn" onClick={showNavbar}>
+          <FaBars />
+        </button>
         <nav ref={navRef}>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
           <Link onClick={showNavbar} to="/" className="nav-element">
             <p>Home</p>
           </Link>
@@ -58,14 +63,7 @@ function Header() {
               <p>{user ? "Sign Out" : "Sign In"}</p>
             </div>
           </Link>
-
-          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-            <FaTimes />
-          </button>
         </nav>
-        <button className="nav-btn" onClick={showNavbar}>
-          <FaBars />
-        </button>
       </header>
     </div>
   );
